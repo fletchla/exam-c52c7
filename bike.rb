@@ -16,6 +16,16 @@ class Bike
     @luggage
   end
 
+  def add_luggage( new_luggage )
+    @luggage << new_luggage 
+  end
+
+  def luggage_price
+    total_price = 0
+    @luggage.each { |L| total_price += L.price }
+    total_price
+  end
+
   def weekly_price
     @weekly_price
   end

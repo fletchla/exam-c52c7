@@ -1,5 +1,3 @@
-require_relative 'tail_pack'
-
 class BmxBike
 
   def initialize
