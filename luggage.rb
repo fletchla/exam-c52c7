@@ -1,9 +1,15 @@
+require_relative 'pannier'
+require_relative 'roll_pack'
+require_relative 'tail_pack'
+
 class Luggage
 
     def initialize
-        @pannier = Pannier.new
-        @roll_pack = RollPack.new
-        @tail_pack = TailPack.new
+        @price = 0
+    end
+
+    def price
+      @price
     end
 
 end
