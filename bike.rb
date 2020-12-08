@@ -1,3 +1,8 @@
+require_relative 'luggage'
+require_relative 'bmx_bike'
+require_relative 'road_bike'
+require_relative 'mountain_bike'
+
 class Bike
     
   def initialize
