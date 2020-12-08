@@ -7,4 +7,20 @@ class Bike
     @hourly_price = 0
   end
 
+  def luggage
+    @luggage
+  end
+
+  def weekly_price
+    @weekly_price
+  end
+
+  def daily_price
+    @daily_price
+  end
+
+  def hourly_price
+    @hourly_price
+  end
+
 end
